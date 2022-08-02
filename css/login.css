@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+#loginsection { padding-top:106px;
+  background-color: #eef5fc;
+  height: 1020px;
+  font-family: 'Nanum Gothic', sans-serif;}
+  
+#loginsection .inner {
+  width: 35%;
+  margin: 70px auto 0;
+  padding: 50px 60px;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+#loginsection .inner h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #374785;
+}
+
+/* 간편로그인 */
+#loginsection .sns {
+  margin: 0 0 80px;
+}
+#loginsection .sns a {
+  margin-right: 30px;
+}
+#loginsection .sns a:last-child {
+  margin-right: 0;
+}
+#loginsection .sns .n {
+  width: 42px; height: 42px;
+  background: url(../images/icon.png)no-repeat 0 -1px;
+}
+#loginsection .sns .f {
+  width: 42px; height: 42px;
+  background: url(../images/icon.png)no-repeat -43px -1px;
+}
+#loginsection .sns .k {
+  width: 42px; height: 42px;
+  background: url(../images/icon.png)no-repeat -86px -1px;
+}
+
+/* 로그인 */
+#loginsection .loginbox {
+  width: 60%;
+  margin: 0 auto;
+}
+#loginsection .loginbox input {
+  margin-top: 10px;
+  width: 100%;
+  display: block;
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 2px;
+}
+#loginsection .loginbox .find {
+  text-align: right;
+  margin: 0 0 10px;
+}
+#loginsection .loginbox .find a {
+  padding: 5px 0;
+  position: relative;
+}
+#loginsection .loginbox .find a:first-child {
+  padding-right: 10px;
+}
+#loginsection .loginbox .find a:first-child::after {
+  content: '';
+  position: absolute;
+  width: 2px; top:10px; bottom: 6px;
+  background-color: #374785;
+  right:0
+}
+#loginsection .loginbox .btn {
+  margin-top: 20px;
+}
+#loginsection .loginbox .btn button {
+  width: 100%;
+  display: inline-block;
+  margin: 0 auto 10px;
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+#loginsection .loginbox .btn button:first-child {
+  background: #374785;
+  color: #fff;
+}
+#loginsection .loginbox .btn button:last-child {
+  background: #fff;
+  color: #374785;
+  border: 1px solid #374785;
+  margin-bottom: 60px;
+}
