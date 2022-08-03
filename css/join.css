@@ -5,7 +5,7 @@
 }
 
 #joinsection >div {  
-  width: 51%;
+  width: 50%;
   margin: 70px auto 0;
   padding: 50px 60px;
   background-color: #fff;
@@ -15,7 +15,7 @@
 
 #joinsection .joninbox {
   margin: 0 auto;
-  width: 60%;
+  width: 61%;
 }
 #joinsection >div h2 {
   font-size: 35px;
