@@ -15,7 +15,7 @@
 
 #joinsection .joninbox {
   margin: 0 auto;
-  width: 61%;
+  width: 60%;
 }
 #joinsection >div h2 {
   font-size: 35px;
@@ -41,11 +41,11 @@
   width: 70%;
 }
 #joinsection .joninbox .join1 .id input, #joinsection .joninbox .join1 #pw:focus {
-  outline: 2px solid #2e4bca;
+  outline: 1px solid #2e4bca;
   border: none;
 }
 #joinsection .joninbox .join1 button {
-  width: 29%;
+  width: 28%;
 }
 #joinsection #pw {
   width: 100%;
