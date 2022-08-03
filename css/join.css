@@ -88,10 +88,10 @@
   width: 100%;
 }
 #joinsection .joninbox .join2 #email {
-  width: 45.8%;
+  width: 38%;
 }
 #joinsection .join2 #yy, #joinsection .join2 #mm, #joinsection .join2 #dd {
-  width: 32.6%;
+  width: 32%;
 }
 
 #joinsection .join2 input[type="radio"] {
